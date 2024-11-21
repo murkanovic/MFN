@@ -101,9 +101,11 @@
     - nr: 4
       son: 'Rakendus peab töötama veebisirvijates, mis toetavad eID baastarkvara kaht viimast versiooni.'
       sel: 'Vt sirvikute loetelu ID-tarkvara abikeskuse lehel [ID-tarkvara paigaldamine](https://installer.id.ee/?lang=est).'
+      msm: 'Ekspositsiooniprogrammid on loodud paigaldamiseks konkreetsele seadmele rakendusena või silmas pidades spetsiifilist veebisirvijat. eID tarkvara tugi ei ole relevantne.'
     - nr: 5
       son: 'Veebisirvija toe puudumisel andku rakendus veateate.'
       sel: 'Kui kasutajaliides, mille poole kasutaja pöördub, ei ole ühilduv kasutatava veebisirvijaga, peab rakendus arusaadaval ja juhendaval viisil sellest kasutajat teavitama.'
+      msm: 'Ei ole relevantne.'
 - kategooria:
   nimetus: 'kasutatavus'
   nouded:

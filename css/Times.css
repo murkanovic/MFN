@@ -114,6 +114,8 @@ table { width: 100%; margin: 0 4em 2em 0; }
 table { border-collapse: collapse; }    
 table, th, td { border: 1px solid black; }
 th, td { padding: 6px; }
+.msm { color: #ddd; text-decoration: line-through; }
+
 /*#endregion */
 
 /*#region Kood; asciiflow joonised */

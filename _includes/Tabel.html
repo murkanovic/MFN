@@ -12,7 +12,11 @@
     {% assign nn = 0 %}
     {% for noue in kategooria.nouded %}
       {% capture noudeloendur %}{% increment nl %}{% endcapture %}
+      {% if issue.msm %}
+      <tr class="msm">
+      {% else %}
       <tr>
+      {% endif %}
         <td> {{ kategooria.nimetus }}</td>
         <td>
           <a href='{{ site.baseurl }}/#{{ abikn }}.{{ noue.nr }}'>{{ abikn }}.{{ noue.nr }}</a>
@@ -33,6 +37,11 @@
             {% endfor %}
           {% endif %}
         </td>
+        {% if noue.msm %}
+        <td>
+          {% noue.msm}
+        </td>
+        {% endif %}
       </tr>
     {% endfor %}
   {% endfor %}
